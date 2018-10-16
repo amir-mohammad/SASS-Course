@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#main-nav {
+  background: #032f3e; }
+  #main-nav ul {
+    width: 100%; }
+    #main-nav ul li {
+      float: left;
+      width: 16.66667%; }
+      @media screen and (max-width: 600px) {
+        #main-nav ul li {
+          width: 100%; } }
+      #main-nav ul li a {
+        text-decoration: none;
+        text-align: center;
+        color: #f8f9fb;
+        display: block;
+        padding: 16px; }
+        #main-nav ul li a:hover {
+          background: #04455b; }
+    #main-nav ul::after {
+      content: '';
+      display: block;
+      clear: both; }
+
+section h1 {
+  font-size: 24px; }
+
+.lead-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: right; }
+  .lead-banner img {
+    width: 100%; }
+  .lead-banner .banner-content {
+    width: 100%;
+    position: absolute;
+    top: 50px; }
+    .lead-banner .banner-content span {
+      display: block;
+      font-weight: bold;
+      font-size: 46px;
+      text-transform: uppercase;
+      padding-right: 20px; }
+      @media screen and (max-width: 3000px) and (min-width: 1200px) {
+        .lead-banner .banner-content span {
+          font-size: 68px; } }
+    .lead-banner .banner-content span.title {
+      font-weight: bold;
+      margin-bottom: 30px; }
+
+.lessons-banner {
+  width: 100%;
+  position: relative;
+  color: white; }
+  .lessons-banner img {
+    width: 100%; }
+  .lessons-banner .banner-content {
+    width: 100%;
+    position: absolute;
+    top: 50px; }
+    .lessons-banner .banner-content span {
+      display: block;
+      font-weight: bold;
+      font-size: 46px;
+      text-transform: uppercase;
+      padding-right: 20px; }
+      @media screen and (max-width: 3000px) and (min-width: 1200px) {
+        .lessons-banner .banner-content span {
+          font-size: 68px; } }
+    .lessons-banner .banner-content span.title {
+      font-weight: bold;
+      margin-bottom: 30px; }
+  .lessons-banner li {
+    font-size: 30px;
+    font-weight: normal;
+    padding-left: 50px;
+    margin-top: 80px;
+    max-width: 500px; }
+
+#services {
+  background: #f8f9fb;
+  padding-bottom: 60px; }
+  #services li {
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    width: 33.33333%; }
+  #services img {
+    margin: 20px 20%;
+    width: 60%; }
+  #services a {
+    text-decoration: none;
+    color: #032f3e;
+    font-weight: bold; }
+    #services a:hover {
+      color: #3e1203; }
+  #services ul::after {
+    content: '';
+    display: block;
+    clear: both; }
+
+#projects {
+  padding: 0 20px; }
+  #projects ul::after {
+    content: '';
+    display: block;
+    clear: both; }
+  #projects li {
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 32%; }
+    #projects li:nth-child(3n) {
+      margin-right: 0px; }
+    #projects li img {
+      width: 100%; }
